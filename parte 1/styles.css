@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #007bff;
+  --danger-color: #dc3545;
+  color-scheme: light dark;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: #007bff 0px 10px 0px 0px, inset 0px 0px 10px 0px #007bff,
+    inset 0px 0px 10px 0px #007bff;
+  background: rgba(0, 0, 0, 0.9);
+  color:rgb(10, 15, 19);
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+label {
+  margin-top: 10px;
+  color:rgb(248, 245, 245);
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  color:aliceblue
+}
+
+.container__item {
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid #007bff;
+  color:aliceblue;
+}
+
+.item__label {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.item__value {
+  padding: 5px;
+}
+
+#app {
+  background: rgba(0, 0, 0, 0.9);
+}
